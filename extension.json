@@ -1,0 +1,28 @@
+{
+  "name": "LessIntegration",
+  "author": "TehKittyCat",
+  "description": "This extension provides edit integration for .less files.",
+  "version": "1.0",
+  "license-name": "GPL-2.0+",
+  "type": "other",
+  "AutoloadClasses": {
+    "LessIntegrationContent": "LessIntegrationContent.php",
+    "LessIntegrationContentHandler": "LessIntegrationContentHandler.php",
+    "LessIntegrationHooks": "LessIntegrationHooks.php"
+  },
+  "ContentHandlers": {
+    "less": "LessIntegrationContentHandler"
+  },
+  "Hooks": {
+    "CodeEditorGetPageLanguage": [
+      "LessIntegrationHooks::onCodeEditorGetPageLanguage"
+    ],
+    "ContentHandlerDefaultModelFor": [
+      "LessIntegrationHooks::onContentHandlerDefaultModelFor"
+    ]
+  },
+  "SyntaxHighlightModels": {
+    "less": "less"
+  },
+  "manifest_version": 1
+}
