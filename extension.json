@@ -1,0 +1,54 @@
+{
+	"name": "Less",
+	"author": [
+		"Cqm"
+	],
+	"url": "https://runescape.wiki",
+	"descriptionmsg": "less-desc",
+	"version": "0.1",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"Less": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "less/modules"
+	},
+	"ResourceModules": {
+		"ext.less.dialog": {
+			"messages": [
+				"less-update-css",
+				"less-dialog-title",
+				"less-dialog-close",
+				"less-dialog-debug-enabled",
+				"less-dialog-getting-source",
+				"less-dialog-getting-mixins",
+				"less-dialog-attempt-parse",
+				"less-dialog-import-success",
+				"less-dialog-import-error",
+				"less-dialog-formatting-css",
+				"less-dialog-getting-header",
+				"less-dialog-edit-success",
+				"less-dialog-edit-summary",
+				"less-dialog-internal-error",
+				"less-dialog-page-not-found",
+				"less-dialog-check-imports",
+				"less-dialog-parse-error-file",
+				"less-dialog-unknown-error",
+				"less-dialog-error-persist"
+			]
+		},
+		"ext.less.md5": {
+			"scripts": [
+				"vendor/md5-jkmyers.js"
+			]
+		}
+	},
+	"manifest_version": 1
+}
+
