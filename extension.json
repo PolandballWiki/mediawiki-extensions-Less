@@ -13,9 +13,9 @@
 		"MediaWiki": ">= 1.31.0"
 	},
 	"AutoloadClasses": {
-		"LessIntegrationContent": "LessIntegrationContent.php",
-		"LessIntegrationContentHandler": "LessIntegrationContentHandler.php",
-		"LessIntegrationHooks": "LessIntegrationHooks.php"
+		"LessIntegrationContent": "includes/LessIntegrationContent.php",
+		"LessIntegrationContentHandler": "includes/LessIntegrationContentHandler.php",
+		"LessIntegrationHooks": "includes/LessIntegrationHooks.php"
 	},
 	"ContentHandlers": {
 		"less": "LessIntegrationContentHandler"
