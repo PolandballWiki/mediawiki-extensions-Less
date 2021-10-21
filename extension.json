@@ -64,11 +64,6 @@
 				"less-dialog-error-persist"
 			]
 		},
-		"ext.less.md5": {
-			"scripts": [
-				"vendor/md5-jkmyers.js"
-			]
-		}
 	},
 	"manifest_version": 1
 }
