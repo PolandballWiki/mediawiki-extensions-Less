@@ -63,7 +63,7 @@
 				"less-dialog-unknown-error",
 				"less-dialog-error-persist"
 			]
-		},
+		}
 	},
 	"manifest_version": 1
 }
